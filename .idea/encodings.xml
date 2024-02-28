@@ -2,6 +2,10 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/ExampleKafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eventdriven_base-domains/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eventdriven_email-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eventdriven_order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eventdriven_stock-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-WikimediaConsumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/kafka-WikimediaProducer/src/main/java" charset="UTF-8" />
   </component>

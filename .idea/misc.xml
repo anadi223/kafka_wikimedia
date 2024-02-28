@@ -7,6 +7,10 @@
         <option value="$PROJECT_DIR$/ExampleKafka/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-WikimediaProducer/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-WikimediaConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/eventdriven_base-domains/pom.xml" />
+        <option value="$PROJECT_DIR$/eventdriven_email-service/pom.xml" />
+        <option value="$PROJECT_DIR$/eventdriven_order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/eventdriven_stock-service/pom.xml" />
       </list>
     </option>
   </component>

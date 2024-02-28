@@ -7,15 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eventdriven_order-service" />
+        <module name="kafka-WikimediaConsumer" />
+        <module name="eventdriven_base-domains" />
         <module name="ExampleKafka" />
         <module name="kafka-WikimediaProducer" />
-        <module name="kafka-WikimediaConsumer" />
+        <module name="eventdriven_stock-service" />
+        <module name="eventdriven_email-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ExampleKafka" options="-parameters" />
+      <module name="eventdriven_base-domains" options="-parameters" />
+      <module name="eventdriven_email-service" options="-parameters" />
+      <module name="eventdriven_order-service" options="-parameters" />
+      <module name="eventdriven_stock-service" options="-parameters" />
       <module name="kafka-WikimediaConsumer" options="-parameters" />
       <module name="kafka-WikimediaProducer" options="-parameters" />
     </option>
